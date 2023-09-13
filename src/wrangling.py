@@ -8,6 +8,3 @@ def load_and_prepare_data(filepath):
         df = df.sample(frac=1.0)
         df = df.drop(labels=['id', 'labtest'], axis=1)
     return df
-
-
-# ... (any other data preparation functions)
