@@ -20,10 +20,6 @@ import torch
 from torch import nn, optim
 import torch.nn.functional as F
 
-# configure layout
-get_ipython().run_line_magic('matplotlib', 'inline')
-get_ipython().run_line_magic('config', "InlineBackend.figure_format='retina'")
-
 # plot settings
 sns.set(style='whitegrid', palette='muted', font_scale=1.2)
 COLORS_PALETTE = ["#FF006D", "#808080"]
