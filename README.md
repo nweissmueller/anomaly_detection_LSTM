@@ -4,7 +4,7 @@ According to the data [source](http://www.timeseriesclassification.com/descripti
 
 **The method in this script achieves a 0.98 accuracy, 0.97 AUC, and 0.98 F1 score, with little variation as determined by 10-fold cross-validation.** However, since training and test splits were not identical to the [paper](https://dl.acm.org/doi/10.1007/s10618-014-0388-4), these results cannot be directly compared. Despite not being able to draw direct comparisons, the LSTM in this script can differentiate pathologic from healthy ECG traces with high precision and recall. Therefore, this model and approach appear promising for use in various settings, including wearable health sensors and electronics. Of course, more studies are needed to ensure the model scales to any other setting and data outside of the used ECG5000 dataset.
 
-![ECG traces](image.png)
+![ECG traces](trace_fit.png)
 
 **Stats:**
 ROC AUC: 0.97, ± 0.02
