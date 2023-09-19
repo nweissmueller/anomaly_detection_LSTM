@@ -7,7 +7,8 @@ According to the data [source](http://www.timeseriesclassification.com/descripti
 ![ECG traces](trace_fit.png)
 
 **Stats:**
-ROC AUC: 0.97, ± 0.02
-PR AUC: 0.98, ± 0.01
-Acc: 0.98, ± 0.01
-F1 score: 0.98, ± 0.01
+
+- ROC AUC: 0.97, ± 0.02
+- PR AUC: 0.98, ± 0.01
+- Acc: 0.98, ± 0.01
+- F1 score: 0.98, ± 0.01
