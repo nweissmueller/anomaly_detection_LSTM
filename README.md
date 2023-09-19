@@ -1,4 +1,4 @@
-# anomaly_detection_LSTM
+# ECG anomaly detection using an LSTM Autoencoder
 
 According to the data [source](http://www.timeseriesclassification.com/description.php?Dataset=ECG5000), the best reported accuracy is 0.9461 [source](https://dl.acm.org/doi/10.1007/s10618-014-0388-4).
 
